@@ -1,0 +1,16 @@
+.header {
+    background-color: $color-light-title;
+
+    &--border {
+        border-bottom: 1px solid #ececec;
+    }
+
+    &__container {
+        display: flex;
+        align-items: center;
+    }
+
+}
+
+
+
