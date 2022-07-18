@@ -1,4 +1,4 @@
-.footer__form--position {
+form {
     display: flex;
     margin-top: 20px;
 }
@@ -21,15 +21,15 @@
     min-width: 358px;
 }
 
-.user__email {
+.form-label {
     margin-right: 12px;
 }
 
-.button__icon-form {
+.form__icon {
     margin-left: 10px;
 }
 
-.button__form {
+.form__button {
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;

@@ -1,4 +1,4 @@
-.footer__address {
+.address {
     font-family: $main-font;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -12,7 +12,7 @@
     margin-bottom: 9px;
 }
 
-.footer__email {
+.address__email {
     font-family: $main-font;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -21,7 +21,7 @@
     opacity: 0.6;
 }
 
-.footer__tel {
+.address__tel {
     font-family: $main-font;
     line-height: 1.71;
     letter-spacing: 0.03em;

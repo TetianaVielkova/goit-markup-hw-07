@@ -21,19 +21,19 @@
     <title>Портфолио</title>
   </head>
   <body>
-    <header class="header header--border">
+    <header class="header header__border">
       <div class="container header__container">
         <a class="logo" href="index.html"
-          >Web<span class="logo logo--black">Studio</span></a
+          >Web<span class="logo__black">Studio</span></a
         >
         <nav class="navigation">
-          <ul class="navigation__list list">
+          <ul class="navigation__list">
             <li class="navigation__item">
-              <a class="link navigation__link" href="index.html">Студия</a>
+              <a class="navigation__link" href="index.html">Студия</a>
             </li>
             <li class="navigation__item">
               <a
-                class="link navigation__link navigation__link--current"
+                class="navigation__link navigation__link--current"
                 href="./portfolio.html"
                 >Портфолио</a
               >
@@ -43,18 +43,18 @@
             </li>
           </ul>
         </nav>
-        <ul class="list contact__list">
-          <li class="contact__item">
-            <a class="contact__link link" href="mailto:info@devstudio.com">
-              <svg class="contact__icon" width="16" height="12">
+        <ul class="contacts">
+          <li class="contacts__item">
+            <a class="contacts__link" href="mailto:info@devstudio.com">
+              <svg class="contacts__icon" width="16" height="12">
                 <use href="./images/svg/icons.svg#icon-smartmail"></use>
               </svg>
               info@devstudio.com</a
             >
           </li>
-          <li class="contact__item">
-            <a class="contact__link link" href="tel:+380961111111">
-              <svg class="contact__icon" width="10" height="16">
+          <li class="contacts__item">
+            <a class="contacts__link" href="tel:+380961111111">
+              <svg class="contacts__icon" width="10" height="16">
                 <use href="./images/svg/icons.svg#icon-smartphone"></use>
               </svg>
               +38 096 111 11 11</a
@@ -64,39 +64,37 @@
       </div>
     </header>
     <main>
-      <section class="section section__portfolio">
-        <div class="container portfolio__container">
-          <h2 class="visually-hidden portfolio__title">Портфолио</h2>
-          <ul class="list button__list">
-            <li class="button__item">
-              <button type="button" class="portfolio__button" href="#">
-                Все
-              </button>
+      <section class="section">
+        <div class="container">
+          <h2 class="visually-hidden section__title">Портфолио</h2>
+          <ul class="filter">
+            <li class="filter__item">
+              <button type="button" class="filter__button" href="#">Все</button>
             </li>
-            <li class="button__item">
-              <button type="button" class="portfolio__button" href="#">
+            <li class="filter__item">
+              <button type="button" class="filter__button" href="#">
                 Веб-сайты
               </button>
             </li>
-            <li class="button__item">
-              <button type="button" class="portfolio__button" href="#">
+            <li class="filter__item">
+              <button type="button" class="filter__button" href="#">
                 Приложения
               </button>
             </li>
-            <li class="button__item">
-              <button type="button" class="portfolio__button" href="#">
+            <li class="filter__item">
+              <button type="button" class="filter__button" href="#">
                 Дизайн
               </button>
             </li>
-            <li class="button__item">
-              <button type="button" class="portfolio__button" href="#">
+            <li class="filter__item">
+              <button type="button" class="filter__button" href="#">
                 Маркетинг
               </button>
             </li>
           </ul>
-          <ul class="list cards__list">
-            <li class="item cards__item">
-              <a class="link cards__link" href="#">
+          <ul class="cards">
+            <li class="cards__item">
+              <a class="cards__link" href="#">
                 <div class="cards__block">
                   <img
                     class="cards__img"
@@ -111,14 +109,14 @@
                     исчерпывающие сведения о компании или частном лице.
                   </p>
                 </div>
-                <div class="cards__text">
-                  <h2 class="cards__subtitle">Технокряк</h2>
+                <div class="cards__tumb">
+                  <h2 class="cards__title">Технокряк</h2>
                   <p class="cards__category">Веб-сайт</p>
                 </div>
               </a>
             </li>
-            <li class="item cards__item">
-              <a class="link cards__link" href="#">
+            <li class="cards__item">
+              <a class="cards__link" href="#">
                 <div class="cards__block">
                   <img
                     class="cards__img"
@@ -133,10 +131,10 @@
                     исчерпывающие сведения о компании или частном лице.
                   </p>
                 </div>
-                <div class="cards__text">
-                  <h2 class="cards__subtitle">
+                <div class="cards__tumb">
+                  <h2 class="cards__title">
                     Постер
-                    <span class="cards__subtitle--en" lang="en"
+                    <span class="cards__title--en" lang="en"
                       >New Orlean vs Golden Star</span
                     >
                   </h2>
@@ -144,8 +142,8 @@
                 </div>
               </a>
             </li>
-            <li class="item cards__item">
-              <a class="link cards__link" href="#">
+            <li class="cards__item">
+              <a class="cards__link" href="#">
                 <div class="cards__block">
                   <img
                     class="cards__img"
@@ -160,17 +158,17 @@
                     исчерпывающие сведения о компании или частном лице.
                   </p>
                 </div>
-                <div class="cards__text">
-                  <h2 class="cards__subtitle">
+                <div class="cards__tumb">
+                  <h2 class="cards__title">
                     Ресторан
-                    <span class="cards__subtitle-en" lang="en">Seafood</span>
+                    <span class="cards__title-en" lang="en">Seafood</span>
                   </h2>
                   <p class="cards__category">Приложение</p>
                 </div>
               </a>
             </li>
-            <li class="item cards__item">
-              <a class="link cards__link" href="#">
+            <li class="cards__item">
+              <a class="cards__link" href="#">
                 <div class="cards__block">
                   <img
                     class="cards__img"
@@ -185,17 +183,17 @@
                     исчерпывающие сведения о компании или частном лице.
                   </p>
                 </div>
-                <div class="cards__text">
-                  <h2 class="cards__subtitle">
+                <div class="cards__tumb">
+                  <h2 class="cards__title">
                     Проект
-                    <span class="cards__subtitle-en" lang="en">Prime</span>
+                    <span class="cards__title-en" lang="en">Prime</span>
                   </h2>
                   <p class="cards__category">Маркетинг</p>
                 </div>
               </a>
             </li>
-            <li class="item cards__item">
-              <a class="link cards__link" href="#">
+            <li class="cards__item">
+              <a class="cards__link" href="#">
                 <div class="cards__block">
                   <img
                     class="cards__img"
@@ -210,17 +208,17 @@
                     исчерпывающие сведения о компании или частном лице.
                   </p>
                 </div>
-                <div class="cards__text">
-                  <h2 class="cards__subtitle">
+                <div class="cards__tumb">
+                  <h2 class="cards__title">
                     Проект
-                    <span class="cards__subtitle-en" lang="en">Boxes</span>
+                    <span class="cards__title-en" lang="en">Boxes</span>
                   </h2>
                   <p class="cards__category">Приложение</p>
                 </div>
               </a>
             </li>
-            <li class="item cards__item">
-              <a class="link cards__link" href="#">
+            <li class="cards__item">
+              <a class="cards__link" href="#">
                 <div class="cards__block">
                   <img
                     class="cards__img"
@@ -235,16 +233,16 @@
                     исчерпывающие сведения о компании или частном лице.
                   </p>
                 </div>
-                <div class="cards__text">
-                  <h2 class="cards__subtitle" lang="en">
+                <div class="cards__tumb">
+                  <h2 class="cards__title" lang="en">
                     Inspiration has no Borders
                   </h2>
                   <p class="cards__category">Веб-сайт</p>
                 </div>
               </a>
             </li>
-            <li class="item cards__item">
-              <a class="link cards__link" href="#">
+            <li class="cards__item">
+              <a class="cards__link" href="#">
                 <div class="cards__block">
                   <img
                     class="cards__img"
@@ -259,10 +257,10 @@
                     исчерпывающие сведения о компании или частном лице.
                   </p>
                 </div>
-                <div class="cards__text">
-                  <h2 class="cards__subtitle">
+                <div class="cards__tumb">
+                  <h2 class="cards__title">
                     Издание
-                    <span class="cards__subtitle-en" lang="en"
+                    <span class="cards__title-en" lang="en"
                       >Limited Edition</span
                     >
                   </h2>
@@ -270,8 +268,8 @@
                 </div>
               </a>
             </li>
-            <li class="item cards__item">
-              <a class="link cards__link" href="#">
+            <li class="cards__item">
+              <a class="cards__link" href="#">
                 <div class="cards__block">
                   <img
                     class="cards__img"
@@ -286,16 +284,16 @@
                     исчерпывающие сведения о компании или частном лице.
                   </p>
                 </div>
-                <div class="cards__text">
-                  <h2 class="cards__subtitle">
-                    Проект <span class="cards__subtitle-en" lang="en">LAB</span>
+                <div class="cards__tumb">
+                  <h2 class="cards__title">
+                    Проект <span class="cards__title-en" lang="en">LAB</span>
                   </h2>
                   <p class="cards__category">Маркетинг</p>
                 </div>
               </a>
             </li>
-            <li class="item cards__item">
-              <a class="link cards__link" href="#">
+            <li class="cards__item">
+              <a class="cards__link" href="#">
                 <div class="cards__block">
                   <img
                     class="cards__img"
@@ -310,8 +308,8 @@
                     исчерпывающие сведения о компании или частном лице.
                   </p>
                 </div>
-                <div class="cards__text">
-                  <h2 class="cards__subtitle" lang="en">Growing Business</h2>
+                <div class="cards__tumb">
+                  <h2 class="cards__title" lang="en">Growing Business</h2>
                   <p class="cards__category">Приложение</p>
                 </div>
               </a>
@@ -321,17 +319,17 @@
       </section>
     </main>
     <footer class="footer" id="contacts">
-      <div class="container footer__container">
+      <div class="container">
         <div class="footer__column">
           <div class="footer__address">
-            <a class="link logo footer-logo__link" href="index.html"
-              >Web<span class="logo footer__logo--current">Studio</span></a
+            <a class="logo" href="index.html"
+              >Web<span class="logo__light-color">Studio</span></a
             >
-            <address class="footer__address">
-              <ul class="list address-list">
+            <address class="address">
+              <ul class="address__list">
                 <li class="address__item">
                   <a
-                    class="address__link link"
+                    class="address__link"
                     href="https://goo.gl/maps/j8zxEr69GDoFMUGD8"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -340,45 +338,45 @@
                   </a>
                 </li>
                 <li class="address__item">
-                  <a class="footer__email" href="mailto:info@devstudio.com"
+                  <a class="address__email" href="mailto:info@devstudio.com"
                     >mailto:info@devstudio.com</a
                   >
                 </li>
                 <li class="address__item">
-                  <a class="footer__tel" href="tel:+380961111111"
+                  <a class="address__tel" href="tel:+380961111111"
                     >+38 096 111 11 11</a
                   >
                 </li>
               </ul>
             </address>
           </div>
-          <div class="footer__subscribe">
-            <h2 class="footer__subtitle-social">присоединяйтесь</h2>
-            <ul class="list subscribe__list">
+          <div class="subscribe">
+            <h2 class="footer__title">присоединяйтесь</h2>
+            <ul class="subscribe__list">
               <li class="subscribe__item">
-                <a href="#" class="link subscribe__link" aria-label="Instagram">
-                  <svg class="icon-social-footer" width="20" height="20">
+                <a href="#" class="subscribe__link" aria-label="Instagram">
+                  <svg class="subscribe__icon" width="20" height="20">
                     <use href="./images/svg/icons.svg#icon-instagram"></use>
                   </svg>
                 </a>
               </li>
               <li class="subscribe__item">
-                <a href="#" class="link subscribe__link" aria-label="Twitter">
-                  <svg class="icon-social-footer" width="20" height="20">
+                <a href="#" class="subscribe__link" aria-label="Twitter">
+                  <svg class="subscribe__icon" width="20" height="20">
                     <use href="./images/svg/icons.svg#icon-twitter"></use>
                   </svg>
                 </a>
               </li>
               <li class="subscribe__item">
-                <a href="#" class="link subscribe__link" aria-label="Facebook">
-                  <svg class="icon-social-footer" width="20" height="20">
+                <a href="#" class="subscribe__link" aria-label="Facebook">
+                  <svg class="subscribe__icon" width="20" height="20">
                     <use href="./images/svg/icons.svg#icon-facebook"></use>
                   </svg>
                 </a>
               </li>
               <li class="subscribe__item">
-                <a href="#" class="link subscribe__link" aria-label="Linkedin">
-                  <svg class="icon-social-footer" width="20" height="20">
+                <a href="#" class="subscribe__link" aria-label="Linkedin">
+                  <svg class="subscribe__icon" width="20" height="20">
                     <use href="./images/svg/icons.svg#icon-linkedin"></use>
                   </svg>
                 </a>
@@ -386,9 +384,9 @@
             </ul>
           </div>
           <div class="footer__form">
-            <b class="footer__subtitle-social">подпишитесь на рассылку</b>
-            <form class="footer__form--position">
-              <label class="user__email" for="user-email">
+            <b class="footer__title">подпишитесь на рассылку</b>
+            <form class="form">
+              <label class="form-label" for="user-email">
                 <input
                   class="form__email"
                   type="email"
@@ -396,9 +394,9 @@
                   placeholder="E-mail"
                 />
               </label>
-              <button class="button button__form" type="submit">
+              <button class="form__button" type="submit">
                 Подписаться
-                <svg class="button__icon-form" width="24" height="24">
+                <svg class="form__icon" width="24" height="24">
                   <use href="./images/svg/icons.svg#icon-aircraft"></use>
                 </svg>
               </button>

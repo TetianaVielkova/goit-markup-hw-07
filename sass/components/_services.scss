@@ -1,8 +1,8 @@
-.section__services {
+.section__not-padding-top {
     padding-top: 0;
 }
 
-.services__list {
+.services {
     display: flex;
     margin-top: 50px;
 }
@@ -16,7 +16,7 @@
     }
 }
 
-.services__subtitle {
+.services__title {
     position: absolute;
 
     display: flex;
